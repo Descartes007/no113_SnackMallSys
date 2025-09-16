@@ -1,4 +1,4 @@
-<h1 align="center">基于Spring Boot 的零食电商系统系统</h1></p>
+<h1 align="center">{1}</h1></p>
 
 - <b>完整代码获取地址：从戎源码网 ([https://armycodes.com/](https://armycodes.com/))</b>
 - <b>技术探讨、资料分享，请加QQ群：692619798</b>
@@ -9,70 +9,49 @@
 
 ## 一、项目介绍
 
-### 基于 Spring Boot 的零食电商系统，系统角色为：管理员（后台）、普通用户（顾客）、供应商/采购员。主要功能如下：
-### 管理员（后台）
-- 商品管理：商品增删改查、按名称/类型/品牌搜索、上下架与库存管理、商品类别与品牌管理、规格管理（含批量规格维护）。
-- 订单管理：查看/查询所有订单、创建/修改/删除订单、订单详情（含物流）、收货确认、购物车批量下单处理。
-- 退货/售后管理：退货原因管理、退货申请处理（同意/拒绝/退款/寄回/确认收货）、退款与退货统计、物流信息管理。
-### 采购与库存：供应商管理、采购单管理、收货/入库（receipts）。
-### 用户与权限：用户管理（顾客/管理员/会员）、角色管理、用户-角色授权、管理员列表与授权邮件通知。
-- 系统配置与内容：轮播图（Banner）管理、文件/图片（本地或阿里 OSS）管理、操作日志、统计概览（Overview）。
-- 支付与对接：支付宝支付/退款对接、第三方短信/邮件通知。
-### 普通用户 （前端）
-- 账号体系：注册/登录/找回密码、个人信息管理、VIP 会员管理（购买/续费）。
-### 购物流程：商品浏览/分类/搜索/详情、加入购物车、购物车编辑、下单与支付（支付宝）、订单查询与状态跟踪。
-- 售后与评价：退货申请、查看退货进度、商品评价（ProductReview）。
-- 个人中心：我的订单、收货地址、密码修改等。
-### 供应商 / 采购员
-### 供应商信息管理：供应商增删改查、可用性检查。
-- 采购单管理：创建/修改采购单、入库确认、采购统计。
+{2}
+
+### {3}
+
+- {4}
 
 ## 二、项目技术
 
-- 编程语言：Java（后端）； Vue（前端）
-- 项目架构：B/S（前后端分离，前端使用 Vue + webpack，后端使用 Spring Boot）
-- 前端技术：Vue 2、vue-router、Vuex、Element-UI、axios、、ECharts / v-charts（可视化）
-- 后端技术：Spring Boot 2.x、MyBatis-Plus、Redis、MySQL、Druid、、 SMTP 邮件、Lombok、Jasypt（配置加密）。
-- 构
+- {5}
 
 
 ## 三、运行环境
 
-- JDK版本：1.8及以上都可以
-- 操作系统：Windows7/10、MacOS
-- 开发工具：IDEA、Ecplise、MyEclipse都可以
+- {6}
 
 ## 四、数据库配置文件
 
-- npm版本：6.14.13及以上都可以
-- Redis版本：3.2.100及以上都可以
-- 文件名：application.yml、application-jdbc.yml、application-mail.yml、application-redis.yml
-- 编码类型：utf8
+- {7}
 
 ## 论文截图
 
-![](screenshot/1.png)
+![](screenshot/1.jpg)
 
-![](screenshot/2.png)
+![](screenshot/2.jpg)
 
 ## 系统截图
 
-![](screenshot/3.png)
+![](screenshot/3.jpg)
 
-![](screenshot/4.png)
+![](screenshot/4.jpg)
 
-![](screenshot/5.png)
+![](screenshot/5.jpg)
 
-![](screenshot/6.png)
+![](screenshot/6.jpg)
 
-![](screenshot/7.png)
+![](screenshot/7.jpg)
 
-![](screenshot/8.png)
+![](screenshot/8.jpg)
 
-![](screenshot/9.png)
+![](screenshot/9.jpg)
 
-![](screenshot/10.png)
+![](screenshot/10.jpg)
 
-![](screenshot/11.png)
+![](screenshot/11.jpg)
 
-![](screenshot/12.png)
+![](screenshot/12.jpg)
